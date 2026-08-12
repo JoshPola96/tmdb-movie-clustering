@@ -2,6 +2,14 @@
 
 > **Scope** · Self-study data science project — published as-is.
 
+> [!NOTE]
+> **Built 2025. The ecosystem has moved since.**
+> Dependencies here are unpinned, so a clean `pip install` today resolves to
+> versions that did not exist when this was written and pandas 3.0, numpy 2.5, pytest 9 and black 26 have all landed since. Expect install or
+> runtime breakage on a fresh environment. What is on offer is the engineering
+> approach and the decisions behind it, not a guaranteed-green build.
+> Happy to bring it current if that would be useful — just ask.
+
 ## Project Overview
 This project performs advanced clustering analysis on the TMDB (The Movie Database) 5000 movie dataset to identify patterns and groupings based on movie attributes such as budget, popularity, runtime, vote metrics, and genres. Multiple clustering algorithms (KMeans, DBSCAN, Hierarchical Clustering) are implemented and compared, with and without dimensionality reduction via PCA.
 
